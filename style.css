@@ -1,0 +1,33 @@
+*{
+    text-align: center;
+}
+
+body {
+    background-image: url(https://seucreditodigital.com.br/wp-content/uploads/2023/09/fachada-banco-itau.jpg);
+    background-size: cover;
+    -webkit-background-clip: text;
+}
+
+h1{
+    color:#000000;
+    font-size: 5em;
+}
+
+p{
+    color:#000000;
+    font-size: 2em;
+}
+
+button{
+    width: 7%;
+    padding: 10px;
+    background-color: #07057af5;
+    color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 19px;
+    display: flex;
+    margin-left: 47%;
+    margin-top: 2%;
+}

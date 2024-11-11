@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Idade</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>INSIRA SUAS INFORMAÇÕES</h1>
+        <p>Insira sua idade para continuar...</p>
+        <input type="number" name="" id="idadeInput">
+        <button onclick="verificarIdade()">Verificar</button>
+    </div>
+
+    <script>
+        function verificarIdade() {
+            const idade = parseInt(document.getElementById("idadeInput").value);
+
+            if (idade >= 18) {
+
+                window.location.href = "permitido.html";
+            } else {
+                window.location.href = "npermitido.html";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

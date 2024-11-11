@@ -1,0 +1,40 @@
+*{
+    margin-top: 6%;
+    text-align: center;
+}
+
+/* form {
+    background-color: rgb(229, 209, 247);
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 25px;
+} */
+
+h1{
+    color:#000000;
+    font-size: 3em;
+}
+
+p{
+    color:#000000;
+    font-size: 2em;
+}
+
+button{
+    width: 7%;
+    padding: 10px;
+    background-color: #07057af5;
+    color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+body{
+    background-image: url(https://www.idinheiro.com.br/wp-content/uploads/2022/06/negociar-dividas-itau.jpg);
+    background-size: cover;
+    -webkit-background-clip: text;
+}
